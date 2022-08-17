@@ -16,6 +16,6 @@ def convertWebmToMp4(path):
         os.system(finalCmd)
 
 if __name__ == '__main__':
-    path = '/Users/bxl/Downloads/LankyBox13/'
+    path = '/Users/bxl/Downloads/LankyBox21/'
     convertWebmToMp4(path)
 
