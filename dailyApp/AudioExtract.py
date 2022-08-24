@@ -27,9 +27,9 @@ def convertVideoToAudio(path):
         print(newSuffix)
         finalCmd = cmd + '\"' + newFile + '\"' + suffix + '\"' + path + newSuffix + '\"'
         print(finalCmd)
-        # os.system(finalCmd)
+        os.system(finalCmd)
 
 if __name__ == '__main__':
-    path = '/Users/bxl/Downloads/Miraculous.S03/'
+    path = '/Users/bxl/Downloads/MyLittlePony/'
     convertVideoToAudio(path)
 
