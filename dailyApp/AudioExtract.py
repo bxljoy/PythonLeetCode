@@ -30,6 +30,6 @@ def convertVideoToAudio(path):
         os.system(finalCmd)
 
 if __name__ == '__main__':
-    path = '/Users/bxl/Downloads/MyLittlePony/'
+    path = '/Users/bxl/Downloads/LankyBox26/'
     convertVideoToAudio(path)
 
